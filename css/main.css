@@ -77,3 +77,92 @@ p a {
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
 }
+
+
+.display-1 {
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+	padding: 10px;
+	position: relative;
+	font-size: 60px;
+	text-align: center;
+}
+
+.content {
+	padding: 0 10%;
+}
+
+.content .lead {
+	text-align: center;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.button-contents {
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.container {
+	height: 100%;
+	position: relative;
+}
+
+.page-wrap {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+nav button { 
+	z-index: 99;
+}
+
+nav button:hover {
+	background-color: #A6A6A6;
+}
+
+.menu-item {
+	z-index: 99;
+}
+
+.wpcf7-form-control-wrap input{
+	border-radius: 10px;
+	border-style: ridge;
+}
+
+.wpcf7-form-control-wrap textarea {
+	border-radius: 10px;
+	border-style: ridge;
+}
+
+@media only screen and (max-width: 762px) {
+	.display-1 {
+		font-size: 40px;
+	}
+	
+	.page-wrap {
+		margin: 0 auto;
+	}
+	
+	.content {
+		padding: 0;
+		width: 100%;
+	}
+	
+	.display-1 {
+		margin: 0 auto;
+	}
+	
+	.lead {
+		margin: 0 auto;
+	}
+	
+	.centered {
+		padding-right: 15px;
+	}
+}

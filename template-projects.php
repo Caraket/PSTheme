@@ -1,15 +1,17 @@
 <?php
 /*
-* Template Name: Contact Us
+* Template Name: Projects
 */
 
 ?>
 
 <?php get_header(); ?>
 
-<div class="container">
 
+<div class="container">
     <?php get_template_part( 'includes/section', 'content' ); ?>
+    
 </div>
+
 
 <?php get_footer(); ?>
